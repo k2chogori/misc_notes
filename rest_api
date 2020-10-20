@@ -1,0 +1,9 @@
+* GET /login HTTP/1.1
+* GET - retrieve
+* POST - receive data and do something with it
+* PUT - make sure something is there
+* REST API - way of thinking how webserver response to your query, it respones with resources
+* We are asking for resources
+* GET /item/chair 
+* Objects (resources) hold the data
+* REST is stateless - one request cannot depend on any other request; server knows about only about current request and doesn't know about previous requests
