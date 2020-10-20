@@ -7,3 +7,14 @@
 * GET /item/chair 
 * Objects (resources) hold the data
 * REST is stateless - one request cannot depend on any other request; server knows about only about current request and doesn't know about previous requests
+* WEB socket API: backend services can send messages independenty to clients
+* REST API: in between trans, no state is stored; response can be cached; uniform response
+* REST API: Stateless, separate of concerns - client (browser, cli or even API) and server; resources are "nouns" of the web - nouns are URL
+* REST API: content type is defined; response code
+* REST API: GET - reads data; POST - create new requests; PUT - update the resources; DELETE - remove the resources
+* REST API: client must specify the type of content
+* REST API: request must contain the parh to resources -> /customers; /customers/:id (those are nounes)
+* REST API: 201 - request was created (with POST)
+* REST API: 204 - no content; 202 - accepted
+* POST: 201 HTTP; PUT: 200 HTTP; DELETE: 204 HTTP
+* Request: GET /c/123 accept: application/json -> 200 Content-type: application/json
